@@ -1,0 +1,27 @@
+{
+  "name": "tiny-webpack-elm",
+  "version": "1.0.0",
+  "description": "Minimal Webpack Elm Project Boilerplate",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajhyndman/tiny-webpack-elm.git"
+  },
+  "keywords": [
+    "minimal",
+    "elm",
+    "webpack",
+    "starter",
+    "boilerplate",
+    "project"
+  ],
+  "author": "Andrew Hyndman <ajhyndman@hotmail.com> (https://github.com/ajhyndman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajhyndman/tiny-webpack-elm/issues"
+  },
+  "homepage": "https://github.com/ajhyndman/tiny-webpack-elm#readme"
+}
