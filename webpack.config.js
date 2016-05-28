@@ -18,11 +18,11 @@ var config = {
     filename: '[name].js',
   },
   plugins: [
-    // // minify & mangle JS/CSS
-    // new webpack.optimize.UglifyJsPlugin({
-    //   minimize: true,
-    //   compressor: { warnings: false },
-    // }),
+    // minify & mangle JS/CSS
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      compressor: { warnings: false },
+    }),
     // dedupe modules
     new webpack.optimize.DedupePlugin(),
   ],
