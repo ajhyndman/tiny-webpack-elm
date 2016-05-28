@@ -2,8 +2,10 @@
   "name": "tiny-webpack-elm",
   "version": "1.0.0",
   "description": "Minimal Webpack Elm Project Boilerplate",
-  "main": "index.html",
+  "main": "src/main.elm",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
