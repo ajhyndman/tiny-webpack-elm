@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/ajhyndman/tiny-webpack-elm/issues"
   },
-  "homepage": "https://github.com/ajhyndman/tiny-webpack-elm#readme"
+  "homepage": "https://github.com/ajhyndman/tiny-webpack-elm#readme",
+  "devDependencies": {
+    "elm": "^0.17.0",
+    "elm-hot-loader": "^0.3.3",
+    "elm-webpack-loader": "^3.0.3",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
