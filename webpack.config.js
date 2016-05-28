@@ -9,7 +9,7 @@ var config = {
       {
         test: /\.elm$/,
         exclude: [/elm-stuff/, /node_modules/],
-        loader: 'elm-hot!elm-webpack?verbose=true&warn=true',
+        loader: 'elm-hot!elm-webpack?cache=false&verbose=true&warn=true',
       },
     ],
   },
